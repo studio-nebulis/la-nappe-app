@@ -2,7 +2,7 @@
 // Page d'accueil : réseau d'abord ; le reste : cache d'abord, mise à jour en arrière-plan.
 // Le fond de carte, la recherche et les stations viennent d'autres sites : ils ne sont pas mis en cache.
 // CACHE est remplacé à chaque compilation (vite.config.js).
-const CACHE = 'lanappe-20261126T2116';
+const CACHE = 'lanappe-20261126T2118';
 
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => {
