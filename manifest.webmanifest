@@ -1,0 +1,15 @@
+{
+  "name": "La Nappe",
+  "short_name": "La Nappe",
+  "lang": "fr",
+  "start_url": "./#/carte",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfaf7",
+  "theme_color": "#ffffff",
+  "share_target": { "action": "./", "method": "GET", "params": { "title": "titre", "text": "texte", "url": "lien" } },
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

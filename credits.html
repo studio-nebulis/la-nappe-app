@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'" />
+  <title>La Nappe · Crédits</title>
+  <link rel="icon" href="./icon-192.png" type="image/png" />
+  <style>
+    :root { color-scheme: light; --bg: #fbf6ef; --fg: #3b2f2a; --muted: #8b7d74; --a: #d85c49; --line: #ecdccc; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    .nappe { height: 48px; background-color: #fff; background-image: linear-gradient(90deg, #c8102e80 50%, transparent 50%), linear-gradient(#c8102e80 50%, transparent 50%); background-size: 24px 24px; }
+    main { max-width: 680px; margin: 0 auto; padding: 24px 16px 48px; overflow-wrap: anywhere; }
+    h1 { font-weight: 800; font-size: 28px; margin: 0 0 4px; }
+    h2 { font-weight: 800; font-size: 19px; margin: 28px 0 8px; }
+    ul { padding-left: 20px; }
+    a { color: var(--a); }
+    .muted { color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<div class="nappe"></div>
+<main>
+  <p><a href="./#/reglages">← Retour à l’appli / Back to the app</a></p>
+  <h1>Crédits et licences</h1>
+  <p class="muted">Credits and licences. Mise à jour le 26 novembre 2026.</p>
+
+  <h2>L’appli / The app</h2>
+  <p>Code et textes : © 2026 Jimmy Darly (Studio Nébulis), tous droits réservés / all rights reserved, sauf les éléments tiers ci-dessous, qui gardent leur licence. Voir les <a href="./mentions.html">mentions légales</a>.</p>
+
+  <h2>Cartes et données / Maps and data</h2>
+  <ul>
+    <li>Fond de carte / Map tiles : <a href="https://openfreemap.org">OpenFreeMap</a>, styles Positron et Liberty, schéma OpenMapTiles. Données © contributeurs <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, licence ODbL.</li>
+    <li>Recherche de lieux / Place search : <a href="https://photon.komoot.io">Photon</a> (komoot), données OpenStreetMap, ODbL.</li>
+    <li>Stations hors Île-de-France / Stations outside the Paris region : Overpass API, données OpenStreetMap, ODbL.</li>
+    <li>Gares d’Île-de-France / Paris-region stations : Île-de-France Mobilités, jeux « Arrêts et lignes associées » et « Référentiel des lignes », <a href="https://data.iledefrance-mobilites.fr">data.iledefrance-mobilites.fr</a>, licence ODbL (version française). La liste réduite livrée avec l’appli (data/arrets_idf.json) est une base dérivée, sous la même licence ODbL.</li>
+  </ul>
+
+  <h2>Bibliothèques et polices / Libraries and fonts</h2>
+  <ul>
+    <li>MapLibre GL JS (BSD-3-Clause).</li>
+    <li>Inter, par Rasmus Andersson (SIL Open Font License 1.1), via Fontsource.</li>
+    <li>Outil de construction / build tool : Vite (MIT).</li>
+  </ul>
+
+  <h2>Marques / Trademarks</h2>
+  <p>Mapstr, TikTok et Instagram sont des marques de leurs propriétaires. La Nappe n’est liée à aucun d’eux. / Mapstr, TikTok and Instagram are trademarks of their owners; La Nappe is not affiliated with them.</p>
+</main>
+</body>
+</html>

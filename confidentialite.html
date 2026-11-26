@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'" />
+  <title>La Nappe · Confidentialité</title>
+  <link rel="icon" href="./icon-192.png" type="image/png" />
+  <style>
+    :root { color-scheme: light; --bg: #fbf6ef; --fg: #3b2f2a; --muted: #8b7d74; --a: #d85c49; --line: #ecdccc; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    .nappe { height: 48px; background-color: #fff; background-image: linear-gradient(90deg, #c8102e80 50%, transparent 50%), linear-gradient(#c8102e80 50%, transparent 50%); background-size: 24px 24px; }
+    main { max-width: 680px; margin: 0 auto; padding: 24px 16px 48px; overflow-wrap: anywhere; }
+    h1 { font-weight: 800; font-size: 28px; margin: 0 0 4px; }
+    h2 { font-weight: 800; font-size: 19px; margin: 28px 0 8px; }
+    ul { padding-left: 20px; }
+    a { color: var(--a); }
+    .muted { color: var(--muted); font-size: 14px; }
+    hr { border: 0; border-top: 2px solid var(--line); margin: 40px 0; }
+  </style>
+</head>
+<body>
+<div class="nappe"></div>
+<main>
+  <p><a href="./#/reglages">← Retour à l’appli / Back to the app</a></p>
+  <h1>Confidentialité</h1>
+  <p class="muted">Politique de confidentialité au sens du RGPD. Mise à jour le 26 novembre 2026. English below.</p>
+
+  <h2>1. En bref</h2>
+  <p>La Nappe garde tes adresses, notes, avis et photos <strong>dans ton téléphone</strong>. Il n’y a ni compte, ni publicité, ni cookie, ni notification. Le studio ne reçoit pas tes adresses. Seul un compteur de visites anonyme compte les écrans ouverts (point 4). Les seules données personnelles qu’il peut recevoir sont celles que tu lui envoies toi-même, par courriel ou avec un don (point 6).</p>
+
+  <h2>2. Responsable du traitement</h2>
+  <p>Jimmy Darly, particulier, qui publie sous le nom d’atelier « Studio Nébulis » (nom d’usage, non une société). Contact : <a href="mailto:studio.nebulis@gmail.com">studio.nebulis@gmail.com</a>. Voir aussi les <a href="./mentions.html">mentions légales</a>.</p>
+
+  <h2>3. Ce qui reste dans ton téléphone</h2>
+  <ul>
+    <li>Tes adresses, notes, avis, étiquettes, tampons et photos, gardés par le navigateur. Les photos sont réduites avant d’être gardées.</li>
+    <li>Tes réglages (langue, fond de carte, filtres) et la dernière zone vue sur la carte.</li>
+    <li>Les fichiers Mapstr que tu importes sont lus dans le téléphone : ils ne sont envoyés nulle part.</li>
+    <li>Le texte que tu colles depuis TikTok ou Instagram est lu dans le téléphone ; seuls les noms et adresses des lieux repérés partent vers le service de recherche (point 4).</li>
+  </ul>
+  <p>Tu effaces tout avec Réglages, « Tout effacer », ou en effaçant les données du site dans ton navigateur. Pense à « Sauvegarder dans un fichier » avant.</p>
+
+  <h2>4. Services extérieurs</h2>
+  <ul>
+    <li><strong>OpenFreeMap</strong> (fond de carte) reçoit les morceaux de carte demandés, donc la zone que tu regardes.</li>
+    <li><strong>Photon</strong>, de komoot (Allemagne), reçoit le texte que tu cherches, les lieux repérés dans une légende et la position d’un lieu dont l’appli cherche l’adresse. Pour classer les résultats, l’appli envoie aussi le centre de la carte ou ta position, <strong>arrondis à environ 1 km</strong>.</li>
+    <li><strong>Overpass</strong> (OpenStreetMap), seulement hors de l’Île-de-France, reçoit la position d’une adresse enregistrée pour trouver la station la plus proche. En Île-de-France, la liste des gares est dans l’appli : rien n’est envoyé.</li>
+    <li><strong>images.mapstr.com</strong> livre les photos reprises de Mapstr quand tu les affiches.</li>
+    <li><strong>GoatCounter</strong> (Martin Tournoij, Irlande ; serveurs en Europe), compteur de visites : à l’ouverture de l’appli et de chaque onglet, le téléphone demande une image invisible avec le nom de l’écran (« carte », « fiche »…), jamais le nom ni l’adresse d’un lieu. GoatCounter en tire des totaux (écrans, pays, navigateur, taille d’écran, langue, appli installée ou non), ne garde ni ton adresse internet ni cookie, et n’écrit rien sur le téléphone. Base : l’intérêt légitime du studio à savoir si l’appli sert. Tu peux t’y opposer en décochant « Compter mes visites » dans les Réglages.</li>
+    <li><strong>GitHub Pages</strong> (GitHub, Inc., États-Unis), l’hébergeur, fournit l’appli et peut tenir des journaux techniques de connexion, comme tout hébergeur. GitHub adhère au cadre de protection des données UE–États-Unis.</li>
+  </ul>
+  <p>Comme tout site, ces services voient l’adresse internet de ton appareil et appliquent leurs propres règles. Le studio n’a pas accès à leurs journaux.</p>
+
+  <h2>5. Ta position</h2>
+  <p>L’appli ne demande ta position que si tu touches « Autour de moi ». Le téléphone te demande ton accord, que tu peux retirer dans ses réglages. La position sert à centrer la carte et à trier par distance ; elle n’est envoyée qu’arrondie (point 4) et n’est jamais transmise au studio.</p>
+
+  <h2>6. Courriels et dons</h2>
+  <p>Si tu écris au studio, ton adresse et ton message sont gardés dans sa messagerie (Gmail, Google) le temps de te répondre, puis au plus trois ans. Si tu fais un don sur Ko-fi, Ko-fi traite le paiement et peut transmettre au studio ton nom et ton adresse électronique ; le studio les garde le temps exigé par la loi pour ses comptes. Le don n’achète aucun avantage.</p>
+
+  <h2>7. Tes droits</h2>
+  <p>Tu peux demander l’accès, la rectification ou l’effacement des données que le studio détient (point 6) à <a href="mailto:studio.nebulis@gmail.com">studio.nebulis@gmail.com</a>, et saisir la CNIL (cnil.fr). Les données gardées dans ton téléphone sont à toi seul : le studio ne peut ni les voir ni les effacer.</p>
+
+  <hr />
+  <h1>Privacy</h1>
+  <p class="muted">Updated November 26, 2026.</p>
+  <p><strong>In short.</strong> La Nappe keeps your places, scores, reviews and photos <strong>on your phone</strong>. No account, no ads, no cookies, no notifications. The studio never receives your places, only what you send it yourself by email or with a donation. An anonymous visit counter (GoatCounter, Ireland) counts which screens are opened, never which places; untick “Count my visits” in Settings to stop it. The app is hosted by GitHub Pages (GitHub, Inc., United States).</p>
+  <p><strong>Controller.</strong> Jimmy Darly, a private individual publishing as “Studio Nébulis” (a trade name, not a company). Contact: <a href="mailto:studio.nebulis@gmail.com">studio.nebulis@gmail.com</a>.</p>
+  <p><strong>Outside services.</strong> OpenFreeMap (map tiles: the area you view); Photon by komoot, Germany (your searches, places found in a pasted caption, the position of a place being looked up, and the map centre or your location <strong>rounded to about 1 km</strong>); Overpass / OpenStreetMap, outside the Paris region only (the position of a saved place, to find its nearest station); images.mapstr.com (photos brought from Mapstr). They see your device’s IP address and follow their own rules.</p>
+  <p><strong>Location.</strong> Asked only when you tap “Near me”, with your phone’s permission. Never sent to the studio.</p>
+  <p><strong>Email and donations.</strong> Emails are kept in the studio’s mailbox (Gmail) to answer you, then at most three years. Ko-fi handles donations and may pass your name and email to the studio, kept as long as the law requires.</p>
+  <p><strong>Your rights.</strong> Access, correction or deletion at the address above; complaints to the CNIL (cnil.fr). Data on your phone is yours alone.</p>
+</main>
+</body>
+</html>

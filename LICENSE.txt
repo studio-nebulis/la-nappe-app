@@ -1,0 +1,8 @@
+La Nappe
+Copyright (c) 2026 Jimmy Darly (Studio Nébulis). Tous droits réservés. All rights reserved.
+
+Le code de La Nappe, ses textes et son interface ne peuvent être copiés, modifiés ni redistribués
+sans l'accord écrit de l'auteur (studio.nebulis@gmail.com).
+
+Exceptions, qui gardent leur propre licence (voir credits.html) : data/arrets_idf.json, base dérivée
+des données d'Île-de-France Mobilités, licence ODbL ; bibliothèques et polices de tiers.
